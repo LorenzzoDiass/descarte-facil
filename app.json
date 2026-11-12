@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Descarte Fácil",
+    "slug": "descarte-facil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "descartefacil",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O Descarte Fácil usa a galeria para anexar a foto do objeto ao registro.",
+          "cameraPermission": "O Descarte Fácil usa a câmera para fotografar o objeto que será descartado ou doado."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
