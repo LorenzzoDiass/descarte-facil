@@ -1,9 +1,15 @@
-# Registro de prompts
 
-A equipe usou IA como copiloto no desenvolvimento. Registre aqui os prompts usados, com data, ferramenta e o que foi aproveitado ou ajustado.
+# Registro de Prompts — Descarte Fácil
 
-| Data | Integrante | Ferramenta | Prompt (resumo ou texto completo) | O que foi usado e o que foi alterado |
-| --- | --- | --- | --- | --- |
-| [data] | [nome] | Claude | Geração de ideias para a CitizenTech com foco em São Paulo | [preencher] |
-| [data] | [nome] | Claude | Implementação do app React Native com Expo Router, Context API, AsyncStorage e simulação IoT, conforme os requisitos da disciplina | [preencher] |
-| [data] | [nome] | [ferramenta] | [prompt] | [preencher] |
+Durante o desenvolvimento do Descarte Fácil, ferramentas de inteligência artificial foram utilizadas pontualmente como apoio técnico e na documentação do projeto.
+
+| Período | Ferramenta | Prompt (resumo) | Aplicação |
+| --- | --- | --- | --- |
+| Novembro/2026 | ChatGPT | Sugestões para organização da navegação e componentes no React Native. | Apoio na estruturação de telas e componentes. |
+| Novembro/2026 | ChatGPT | Análise de problemas relacionados à exibição de datas e persistência local. | Auxílio na identificação e correção de inconsistências. |
+| Novembro/2026 | ChatGPT | Revisão da documentação técnica e instruções de execução. | Melhorias na clareza e organização do README. |
+| Novembro/2026 | Claude | Orientações para edição do vídeo demonstrativo. | Apoio na apresentação audiovisual do projeto. |
+
+## Considerações
+
+As ferramentas foram utilizadas como suporte durante o desenvolvimento. As sugestões foram revisadas e adaptadas às necessidades do projeto, com testes realizados pela equipe.

@@ -13,19 +13,21 @@ O app ajuda moradores de São Paulo a descartar móveis, eletrodomésticos e out
 | Miguel Marques Lourenço | RM555426 |
 | Pedro Henrique Ferronato | RM554757 |
 
+
 ## Ficha da CitizenTech
 
 | Campo | Descrição |
 | --- | --- |
 | Nome | Descarte Fácil |
-| Cidade e bairro | São Paulo, [bairro onde a equipe observou o problema] |
-| Cidadão beneficiado | Morador sem carro que precisa descartar um móvel ou objeto grande, como idosos e pessoas que moram sozinhas |
-| Problema, em uma frase | Quem não tem carro não sabe quando o Cata-Bagulho passa e acaba deixando o objeto na calçada fora da data |
-| Como funciona | O app indica a destinação de cada objeto, mostra a data de coleta pelo CEP, registra a solicitação, avisa sobre a coleta programada e oferece o objeto para doação |
-| O que cada parte faz | App mobile (este repositório); API em C# e circuito ESP32 no Wokwi desenvolvidos por outros integrantes |
-| Link do repositório | [link] |
-| Indicador de impacto | Objetos registrados para coleta ou doados pelo app; queda de chamados de descarte irregular no bairro (SP156) |
-| ODS conectados | 10, 11 e 12 |
+| Cidade e bairro | São Paulo (SP) — Vila Mariana (bairro citado na entrevista com o cidadão) |
+| Cidadão beneficiado | Moradores sem carro que precisam descartar móveis ou objetos grandes, incluindo idosos e pessoas que moram sozinhas |
+| Problema, em uma frase | Quem não tem carro enfrenta dificuldades para descartar objetos volumosos e nem sempre sabe quando o Cata-Bagulho passa |
+| Como funciona | O aplicativo orienta sobre o descarte correto, permite registrar solicitações, consultar o Cata-Bagulho por CEP, localizar ecopontos e cadastrar doações |
+| O que cada parte faz | Aplicativo mobile desenvolvido em React Native; API em C# e circuito ESP32 no Wokwi desenvolvidos como entregas separadas |
+| Link do repositório | https://github.com/LorenzzoDiass/descarte-facil |
+| Indicador de impacto | Quantidade de objetos registrados para coleta ou doação e potencial redução do descarte irregular |
+| ODS conectados | ODS 10, 11 e 12 |
+
 
 ### Problema identificado
 
@@ -333,20 +335,30 @@ Os níveis de ocupação das caçambas são simulados. O aplicativo apresenta al
 - As informações são armazenadas localmente no dispositivo.
 
 
-## Vídeo demonstrativo
 
-Link: [adicionar link do vídeo]
+## 🎬 Vídeo demonstrativo
 
-Roteiro sugerido para até 3 minutos:
+O vídeo apresenta o funcionamento do aplicativo Descarte Fácil, desenvolvido para a Global Solution 2026 da FIAP.
 
-1. **0:00–0:20** Problema e público, em uma frase cada.
-2. **0:20–0:40** Login como Cidadão e tela inicial.
-3. **0:40–1:20** Descartar um sofá: categoria, destinação, foto, CEP com data e confirmação. Mostrar um erro de validação.
-4. **1:20–1:40** Consulta do Cata-Bagulho pelo CEP.
-5. **1:40–2:00** Cadastro de uma doação com telefone.
-6. **2:00–2:25** Ecopontos: leituras mudando e "Simular lotação" gerando o alerta.
-7. **2:25–2:50** Login como Agente: filtrar, abrir o sofá registrado e confirmar a coleta.
-8. **2:50–3:00** Voltar como Cidadão e mostrar o status "Coletada" no histórico, comprovando a persistência.
+São demonstradas as principais funcionalidades do sistema, incluindo:
+
+- Autenticação e navegação entre os perfis de cidadão e agente.
+- Cadastro de solicitações de descarte.
+- Consulta do Cata-Bagulho por CEP.
+- Cadastro e gerenciamento de doações.
+- Consulta de ecopontos e monitoramento IoT simulado.
+- Acompanhamento e atualização do status das coletas.
+
+**Assista ao vídeo demonstrativo:**
+
+https://youtu.be/REVnnyAN6VI
+
+**Repositório do projeto:**
+
+https://github.com/LorenzzoDiass/descarte-facil
+
+> O aplicativo utiliza dados demonstrativos e armazenamento local para fins acadêmicos.
+
 
 ## Uso de IA
 
