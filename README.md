@@ -4,6 +4,17 @@ Aplicativo mobile da CitizenTech **Descarte Fácil**, desenvolvido para a Global
 
 O app ajuda moradores de São Paulo a descartar móveis, eletrodomésticos e outros objetos grandes do jeito certo, principalmente quem não tem carro para levá-los a um ecoponto.
 
+
+## Acesse o Descarte Fácil
+
+- [Acessar a plataforma web](https://descarte-facil-fiap.vercel.app/)
+- [Assistir à demonstração do aplicativo](https://youtu.be/REVnnyAN6VI)
+
+O aplicativo pode ser acessado diretamente pelo navegador, sem necessidade de instalação.
+
+Na tela de login, utilize os botões Cidadão ou Agente para preencher as credenciais de demonstração.
+
+
 ## Integrantes
 
 | Nome | RM |
